@@ -1,0 +1,32 @@
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px lightcoral;
+    padding: 5px;
+    width: 80px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.number-text {
+    color: lightcoral;
+}
+
+button {
+    background-color: white;
+    border: solid 2px lightcoral;
+    border-radius: 5px;
+    width: 75px;
+    color: lightcoral;
+}
